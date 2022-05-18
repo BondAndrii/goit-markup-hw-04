@@ -16,6 +16,7 @@
     --bgc-button-color: #F5F4FA;
     --back-ground-color: #E5E5E5;
     --brc-herofooter: #2F303A;
+    --bgc-hero-color: rgba(47, 48, 58, 0.4);
 }
 p {
     margin: 0;
@@ -61,7 +62,7 @@ body {
     margin: auto;
     padding: 0 15px;
     width: 1200px;
-    /* outline: 2px solid rebeccapurple; */
+    outline: 2px solid teal; 
 }
 /* Задаю колір передньої частини логотипу */
 .logo {
@@ -147,6 +148,7 @@ body {
     /* height: 600px; */
     background-color: var(--brc-herofooter);
     text-align: center;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/heroimg.jpg);
 }
 .hero-title {
     width: 696px;
@@ -166,7 +168,8 @@ body {
 }
 .section {
     padding-top: 94px;
-    padding-bottom: 94px;    
+    padding-bottom: 94px;   
+    outline: 2px dashed rebeccapurple; 
 }
 .section.works{
     padding-top: 0;
