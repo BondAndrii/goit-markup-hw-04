@@ -17,6 +17,7 @@
     --back-ground-color: #E5E5E5;
     --brc-herofooter: #2F303A;
     --bgc-hero-color: rgba(47, 48, 58, 0.4);
+    --sotsset-color: #AFB1B8;
 }
 p {
     margin: 0;
@@ -119,10 +120,37 @@ body {
     display: flex;
     margin-left: auto;
 }
+.contact-li{
+    display: flex;
+}
 .contact-li + .contact-li {
     margin-left: 50px;
 }
-
+.contact-mylo {
+    display: flex;
+    align-items: center;
+    
+}
+.mylo{}
+.mylo-icon {
+    padding: 0px;
+    margin-right:10px;
+    height: 12px;
+    width: 16px;
+}
+.contact-tel {
+    display: flex;
+    align-items: center;
+   
+}
+.tel-icon {
+    display: block;
+    padding: 0px;
+    margin-right: 10px;
+    height: 16px;
+    width: 10px;    
+    
+}
 /* Задаю колір та шрифт ссилок в блоці авторизації */
 .contact-nav .link {
     color: var(--general-text-color);
@@ -137,6 +165,7 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
     color: var(--accent-color);
+    fill: var(--accent-color)
 }
 /* задаю колір та шрифт заголовків */
 /* Задаю колір та шрифт головного заголовка */
@@ -266,6 +295,48 @@ background-color: var(--bgc-button-color);
     line-height: 1.2;    
     
     text-align: center;
+}
+.sotsset-team{
+    display: flex;
+    padding: 0;
+    margin: 16px 32px 30px 32px;
+    outline: 1px solid rebeccapurple;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.sots-li{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.sots-li + .sots-li{
+    margin-left: 10px;
+}
+.button-sots{  
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;    
+  }
+.button-sots:hover{
+    background-color: var(--accent-color);
+}
+.button-icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    
+}
+.button-icon:hover{
+    fill:var(--second-text-color)
+    backgroundcolor: var(#2196F3)
 }
 .portfolio-header {
     margin-bottom: 94px;
