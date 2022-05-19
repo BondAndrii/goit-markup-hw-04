@@ -165,7 +165,7 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
     color: var(--accent-color);
-    fill: var(--accent-color)
+    
 }
 /* задаю колір та шрифт заголовків */
 /* Задаю колір та шрифт головного заголовка */
@@ -223,6 +223,8 @@ body {
 .place-featers{
     display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 270px;
     height: 120px;
     background-color: var(--bgc-button-color);
@@ -391,6 +393,7 @@ background-color: var(--bgc-button-color);
         
     border: 1px solid var(--sotsset-color);
     border-radius: 4px;
+    color: var(--sotsset-color);
 }
 .clients-place:hover {
     color: var(--accent-color);
@@ -398,12 +401,12 @@ background-color: var(--bgc-button-color);
 
 }
 .clients-icon{
-    fill: var(--sotsset-color);
+    fill: currentColor;
     margin: 16px 32px 16px 32px;
 }
-.clients-icon:hover{
+/* .clients-icon:hover{
     fill: var(--accent-color)
-}
+} */
 /* .clients-place { 
     display: flex;
     align-items: center;
