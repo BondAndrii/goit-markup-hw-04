@@ -181,6 +181,7 @@ body {
 /* Задаю колір та шрифт головного заголовка */
 .section.hero {
     padding: 200px 0px 200px 0px ;
+    max-width: 1600px;
 }
 .hero {
     /* display: flex; */
@@ -548,10 +549,10 @@ background-color: var(--bgc-button-color);
     color: var(--second-text-color);
 }
 .sotsset-footer{
-    width: 206px;
+    /* width: 206px; */
     display: flex;
     margin-top: 20px;
-    justify-content: space-between;   
+    /* justify-content: space-between;    */
     
 }
 
