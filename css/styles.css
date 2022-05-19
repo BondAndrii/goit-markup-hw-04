@@ -320,6 +320,7 @@ background-color: var(--bgc-button-color);
     width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--second-text-color);
 }
 .team-li + .team-li {
     margin-left: 30px;;
@@ -362,7 +363,7 @@ background-color: var(--bgc-button-color);
     height: 44px;
     border-radius: 50%;
     color: var(--sotsset-color);
-    
+    background-color: var(--second-text-color)
   }
 .button-sots:hover{
     color: var(--second-text-color);
@@ -536,6 +537,11 @@ background-color: var(--bgc-button-color);
     display: flex;
     margin-top: 20px;
     justify-content: start;
+    
+    
+}
+.sots-li{
+    
 }
 .sots-li-foot + .sots-li-foot{
     margin-left: 10px;
