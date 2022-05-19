@@ -122,18 +122,23 @@ body {
 }
 .contact-li{
     display: flex;
+    
 }
 .contact-li + .contact-li {
     margin-left: 50px;
 }
+.link-cont{
+    display: flex;
+    align-items: center;
+}
 .contact-li:hover{
     color: var(--accent-color);
 }
-.contact-mylo {
+/* .contact-mylo { 
     display: flex;
     align-items: center;
-    /* color:currentColor */
-}
+    /* color:currentColor 
+}*/
 
 
 .mylo-icon {
@@ -170,9 +175,8 @@ body {
 /* задаю колір та шрифт ссилок в блоці авторизації при наваденні та переході */
 .contact-nav .link:hover,
 .contact-nav .link:focus {
-    color: var(--accent-color);
-    
-}
+    color: var(--accent-color);    
+} 
 /* задаю колір та шрифт заголовків */
 /* Задаю колір та шрифт головного заголовка */
 .section.hero {
@@ -183,7 +187,7 @@ body {
     /* height: 600px; */
     background-color: var(--brc-herofooter);
     text-align: center;
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/heroimg.jpg);
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/imgoverlay.png), url(../images/heroimg.jpg);
 }
 .hero-title {
     width: 696px;
@@ -526,6 +530,7 @@ background-color: var(--bgc-button-color);
 }
 .container.footer{
     display: flex;
+    align-items: baseline;
 }
 .footer-sots{
     margin-left: 70px;
@@ -543,15 +548,13 @@ background-color: var(--bgc-button-color);
     color: var(--second-text-color);
 }
 .sotsset-footer{
+    width: 206px;
     display: flex;
     margin-top: 20px;
-    justify-content: start;
-    
-    
-}
-.sots-li{
+    justify-content: space-between;   
     
 }
+
 .sots-li-foot + .sots-li-foot{
     margin-left: 10px;
 }
